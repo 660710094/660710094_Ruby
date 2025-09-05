@@ -466,7 +466,7 @@ Video :&#x20;
 
 ## **Reference** <a href="#reference" id="reference"></a>
 
-Convert to array :&#x20;
+Convert to array ( สืบค้นเมื่อวันที่ 02/09/2025 ) :&#x20;
 
 {% embed url="https://stackoverflow.com/questions/18358717/ruby-elegantly-convert-variable-to-an-array-if-not-an-array-already" %}
 
@@ -474,7 +474,7 @@ Convert to array :&#x20;
 
 {% embed url="https://ruby-doc.org/core-2.7.0/Array.html" %}
 
-List Key-Value :&#x20;
+List Key-Value ( สืบค้นเมื่อวันที่ 02/09/2025 ) :&#x20;
 
 {% embed url="https://coderscratchpad.com/exploring-ruby-hashes-key-value-pairs-and-methods/" %}
 
