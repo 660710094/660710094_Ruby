@@ -2,12 +2,14 @@
 
 ## Convert to array
 
-Convert to array คือ การแปลงข้อมูลเป็นอาเรย์ ไม่ว่าจะเป็นข้อมูลรูปแบบไหนเช่น String , Range , Hash เป็นต้น\
+Convert to array คือ การแปลงข้อมูลเป็นอาเรย์ ไม่ว่าจะเป็นข้อมูลรูปแบบไหนเช่น String , Range , Hash เป็นต้น
+\
 เพื่อที่จะจัดการกับข้อมูลได้ง่ายและมีปีะสิทธิภาพมากยิ่งขึ้น มาดูการ Convert to array ของข้อมูลรูปแบบต่างๆกันดีกว่า
 
 ## String
 
-String คือ Text หรือ ข้อมความใน " " เช่น " String "\
+String คือ Text หรือ ข้อมความใน " " เช่น " String "
+\
 การแปลง String สามารถทำได้โดยการใช้เมธอด .spilt(delimiter) ลองดูตัวอย่างด้านล่าง
 
 ```ruby
@@ -61,8 +63,10 @@ result[2] = JavaScript
 
 ## Range & Hash
 
-Range คือ ค่าที่อยู่ในช่วงที่มีจุดเริ่มต้นและจุดจบโดยจะเป็นตัวเลขหรือตัวอักษร เช่น Box = \[ 1 , 2 , 3]\
-Hash คือ โครงสร้างข้อมูลแบบ Key-Values\
+Range คือ ค่าที่อยู่ในช่วงที่มีจุดเริ่มต้นและจุดจบโดยจะเป็นตัวเลขหรือตัวอักษร เช่น Box = \[ 1 , 2 , 3]
+\
+Hash คือ โครงสร้างข้อมูลแบบ Key-Values
+\
 การแปลง Range & Hash สามารถทำได้โดยการใช้เมธอด (Data).to\_a ลองดูตัวอย่างด้านล่าง
 
 ```ruby
@@ -159,8 +163,10 @@ Out put
 
 ## Nile & Single Object
 
-Nile คือ ค่าที่ไม่ได้แสดงข้อมูลหรือยังไม่ได้กำหนดค่า\
-Single Object คือ ข้อมูลที่ไม่ใช่อาเรย์เช่น ตัวเลข ตัวอักษร nil\
+Nile คือ ค่าที่ไม่ได้แสดงข้อมูลหรือยังไม่ได้กำหนดค่า
+\
+Single Object คือ ข้อมูลที่ไม่ใช่อาเรย์เช่น ตัวเลข ตัวอักษร nil
+\
 การแปลง Nile & Single Object สามารถทำได้โดยการใช้เมธอด array(Data) ลองดูตัวอย่างด้านล่าง
 
 ```ruby
@@ -229,7 +235,8 @@ Out put
 
 ## List Key - Values
 
-List คือ array ที่เก็บค่าข้อมูลที่เรียงลำดับโดยเริ่มนับจาก 0 ไปถึง n โดยสามารถเก็บข้อมูลได้หลายประเภทเช่น  String , ตัวเลข เป็นต้น สามารถสร้างได้โดยใช้ \[ ]\
+List คือ array ที่เก็บค่าข้อมูลที่เรียงลำดับโดยเริ่มนับจาก 0 ไปถึง n โดยสามารถเก็บข้อมูลได้หลายประเภทเช่น  String , ตัวเลข เป็นต้น สามารถสร้างได้โดยใช้ \[ ]
+\
 และสามารถเข้าถึงข้อมูลโดยใช้ Box\[Number] ลองดูตัวอย่างด้านล่าง
 
 ```ruby
@@ -249,7 +256,8 @@ mango
 
 ## List Key
 
-Key คือ ชื่อ หรือ ตัวระบุ ที่ใช้ในการเข้าถึงข้อมูลใน List และสามารถตั้งชื่อ Key ได้หลายรูปแบบ ตัวเลข String โดยมีกฎว่า ห้ามมีชื่อซ้ำกันใน List เดียวกัน\
+Key คือ ชื่อ หรือ ตัวระบุ ที่ใช้ในการเข้าถึงข้อมูลใน List และสามารถตั้งชื่อ Key ได้หลายรูปแบบ ตัวเลข String โดยมีกฎว่า ห้ามมีชื่อซ้ำกันใน List เดียวกัน
+\
 และ Key สามารถสร้างได้โดย Box = { Key : } หรือดูตามตัวอย่างด้านล่าง
 
 ```ruby
@@ -270,7 +278,8 @@ Ame
 Cozy
 ```
 
-ถ้าเราใช้ symbol ตอนประกาศ key ต้องใช้ symbol ตอนเรียกด้วย\
+ถ้าเราใช้ symbol ตอนประกาศ key ต้องใช้ symbol ตอนเรียกด้วย
+\
 หรือใช้ string ตอนประกาศ key ต้องใช้ string ตอนเรียกด้วย สามารถเทียบได้ตามตาราง
 
 | รูปแบบ Key | ตัวอย่าง         | วิธีเรียกใช้    |
@@ -309,7 +318,8 @@ Cozy
 
 ## List Value
 
-Value คือข้อมูลที่ถูกเก็บไว้ภายไต้ Key ที่สร้างขึ้นมา และ Values สามารถสร้างซ้ำกันได้ใน List เดียวกัน โดยสามารถเก็บข้อมูลได้หลายประเภทแบบตัวอื่นๆ\
+Value คือข้อมูลที่ถูกเก็บไว้ภายไต้ Key ที่สร้างขึ้นมา และ Values สามารถสร้างซ้ำกันได้ใน List เดียวกัน โดยสามารถเก็บข้อมูลได้หลายประเภทแบบตัวอื่นๆ
+\
 และ Value สามารถสร้างได้โดย Box = { Key : Value } หรือดูตามตัวอย่างด้านล่าง
 
 ```ruby
@@ -444,7 +454,8 @@ Yuki is level 82 and located in Frozen Abyss
 Kai is level 68 and located in Ashen Ruins
 ```
 
-`ใช้ @Dataclass เพื่อสร้าง class ที่มี key-value`\
+`ใช้ @Dataclass เพื่อสร้าง class ที่มี key-value`
+\
 `ข้อมูลอยู่ใน list ของ object ที่อ่านง่ายและกระชับ`
 
 ตารางเปรียบเทียบ : Key-Value
@@ -458,24 +469,24 @@ Kai is level 68 and located in Ashen Ruins
 
 ## Presentation <a href="#presentation" id="presentation"></a>
 
-Slid : [https://www.canva.com/design/DAGxwUh2aCw/1a7AEiWc0X7H5oc7evfaNQ/view?utm\_content=DAGxwUh2aCw\&utm\_campaign=designshare\&utm\_medium=link2\&utm\_source=uniquelinks\&utlId=hbe515c0544](https://www.canva.com/design/DAGxwUh2aCw/1a7AEiWc0X7H5oc7evfaNQ/view?utm_content=DAGxwUh2aCw\&utm_campaign=designshare\&utm_medium=link2\&utm_source=uniquelinks\&utlId=hbe515c0544)
+Slid : https://www.canva.com/design/DAGzYFLJYkg/jH2r-SHsZZ9w3BkKS-VQ5Q/edit?utm_content=DAGzYFLJYkg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-{% embed url="https://www.canva.com/design/DAGxwUh2aCw/1a7AEiWc0X7H5oc7evfaNQ/view?utm_content=DAGxwUh2aCw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hbe515c0544" %}
-
-Video :&#x20;
+Video : [https://youtu.be/he2Q27IcykA](https://youtu.be/he2Q27IcykA) &#x20;
 
 ## **Reference** <a href="#reference" id="reference"></a>
 
 Convert to array ( สืบค้นเมื่อวันที่ 02/09/2568 ) :&#x20;
 
-{% embed url="https://stackoverflow.com/questions/18358717/ruby-elegantly-convert-variable-to-an-array-if-not-an-array-already" %}
+https://stackoverflow.com/questions/18358717/ruby-elegantly-convert-variable-to-an-array-if-not-an-array-already 
 
-{% embed url="https://www.sourcecodeexamples.net/2023/11/ruby-convert-string-to-array.html" %}
+https://www.sourcecodeexamples.net/2023/11/ruby-convert-string-to-array.html
 
-{% embed url="https://ruby-doc.org/core-2.7.0/Array.html" %}
+https://ruby-doc.org/core-2.7.0/Array.html
 
 List Key-Value ( สืบค้นเมื่อวันที่ 02/09/2568 ) :&#x20;
 
-{% embed url="https://coderscratchpad.com/exploring-ruby-hashes-key-value-pairs-and-methods/" %}
+https://coderscratchpad.com/exploring-ruby-hashes-key-value-pairs-and-methods/
 
-{% embed url="https://www.programiz.com/ruby/hash" %}
+https://www.programiz.com/ruby/hash
+
+จัดทำโดย : นายมนัสวี ลูกเหล็ม 660710094
